@@ -1,0 +1,14 @@
+#!/bin/sh
+
+#
+# rappture
+#
+#/usr/bin/invoke_app "$@" -t hubtooltemplatepublic \
+#                         -C rappture
+
+#
+# jupyter
+#
+#/usr/bin/invoke_app "$@" -t hubtooltemplatepublic \
+#                         -C "start_jupyter -t -T @tool pc4nanobio.ipynb" \
+#                         -u anaconda2-5.1
