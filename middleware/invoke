@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 #
 # rappture
@@ -6,7 +6,9 @@
 /usr/bin/invoke_app "$@" -t aspectdesktop \
                          -e Aspect_DIR=/apps/share64/debian10/aspect/aspect-2.5.0pre \
                          -u aspect-2.5.0-pre \
-                         -C rappture
+                         -C xterm \
+                         -r none \
+                         -w captive
 
 #
 # jupyter
